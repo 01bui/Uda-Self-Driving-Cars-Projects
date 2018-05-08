@@ -1,3 +1,6 @@
+#ifndef ENGINE_H
+#define ENGINE_H
+
 #include <string>
 
 class Engine
@@ -16,3 +19,5 @@ class Engine
 		std::string getSize();
 
 };
+
+#endif /* ENGINE_H */

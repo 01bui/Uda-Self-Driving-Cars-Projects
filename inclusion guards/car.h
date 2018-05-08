@@ -1,3 +1,6 @@
+#ifndef CAR_H
+#define CAR_H
+
 #include <string>
 #include "engine.h"
 
@@ -20,3 +23,5 @@ class Car
 		std::string getEngine();
 
 };
+
+#endif  /* CAR_H */
